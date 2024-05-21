@@ -1,7 +1,7 @@
 '''
 Basic test for show bezier.Curve class details
 '''
-import bezier
+import bezier  # type: ignore
 import numpy as np
 nodes = np.asfortranarray([
     [0.0, 0.625, 1.0],
